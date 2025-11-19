@@ -1,0 +1,90 @@
+/* Smooth scrolling */
+
+/* Center every section */
+.page-section {
+  max-width: 900px;        /* width of the card */
+  width: 100%;
+  margin: 80px auto;       /* THIS centers the section */
+  padding: 60px 40px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.page-section > div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+/* Push content below navbar */
+.page-container {
+  margin-top: 120px;
+}
+
+/* Light background */
+body {
+  background: #eef2f7;
+}
+
+
+/* Navbar custom style */
+.design-1 {
+  background-color: #0f1c2e !important;
+}
+/* Make sure the page stretches full width */
+html, body, #root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Force page container to full width */
+.page-container {
+  width: 100%;
+  display: block;
+}
+
+/* Override accidental Bootstrap or global flex */
+#root, .App {
+  display: block !important;
+}
+
+/* Hard fix if something is forcing layout left */
+.page-section {
+  display: block;
+  height: 90vh;
+}
+.container {
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#home{
+  background-image: url('/images/background-removebg-preview.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#home, #about, #projects, #skills, #contact{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .info-home{ */
+  /* font-size: 100px;
+  text-align: center;
+  font-weight: 400;
+  word-wrap: break-word;
+  width: 100%; */
+/* } */
+.info-about, .info-skills , .info-contact{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
