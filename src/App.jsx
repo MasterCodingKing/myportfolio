@@ -1,4 +1,9 @@
 import './App.css'
+import geminiImg from './assets/Gemini_Generated_Image_8r0lqt8r0lqt8r0l.png'
+import bmis from './assets/bmis.png'
+import RESTO from './assets/RESTO.png'
+import INVENTORY from './assets/INVENTORY.png'
+import INVENTORYMANAGEMENT from './assets/INVENTORYMANAGEMENT.png'
 
 function App() {
   const skills= [
@@ -37,14 +42,14 @@ const style = {
       <div className='container-fluid gap-4'> 
       <nav className="navbar navbar-expand-lg navbar-dark fixed-top py-3 design-1 shadow-sm">
         <div className="container">
-          <button
+          {/* <button
             className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNav"
           >
             <span className="navbar-toggler-icon"></span>
-          </button>
+          </button> */}
 
           <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
             <ul className="navbar-nav gap-3">
@@ -79,7 +84,7 @@ const style = {
             
               <div className="col-lg-6">
                 <img
-                  src="/images/Gemini_Generated_Image_8r0lqt8r0lqt8r0l.png"
+                  src={geminiImg}
                   className="img-fluid rounded shadow-sm"
                   alt="BMIS"
                 />
@@ -105,7 +110,7 @@ const style = {
           <h2 className="text-center mb-5 fw-bold">Projects</h2>
           <div className="col-lg-6">
             <img
-              src="/images/bmis.png"
+              src={bmis}
               className="img-fluid rounded shadow-sm"
               alt="BMIS"
             />
@@ -124,7 +129,7 @@ const style = {
         <div className="row align-items-center project-card mb-5 p-4 flex-lg-row-reverse">
           <div className="col-lg-6">
             <img
-              src="/images/RESTO.png"
+              src={INVENTORY}
               className="img-fluid rounded shadow-sm"
               alt="Resto Inventory System"
             />
@@ -142,7 +147,7 @@ const style = {
         <div className="row align-items-center project-card mb-5 p-4 ">
           <div className="col-lg-6">
             <img
-              src="/images/RESTO.png"
+              src={RESTO}
               className="img-fluid rounded shadow-sm"
               alt="Resto Inventory System"
             />
@@ -161,7 +166,7 @@ const style = {
         <div className="row align-items-center project-card mb-5 p-4 flex-lg-row-reverse">
           <div className="col-lg-6">
             <img
-              src="/images/INVENTORYMANAGEMENT.png"
+              src={INVENTORYMANAGEMENT}
               className="img-fluid rounded shadow-sm"
               alt="Inventory System"
             />
@@ -195,7 +200,7 @@ const style = {
                  <div className='info-contact'>
                     <h1>Let's Work Together</h1>
                     <p>I’m open to collaboration and professional opportunities. Feel free to reach out to discuss projects, ideas, or potential partnerships.</p>
-                    <p> <a href="">09464802364</a> | <a href="christianjuliusbonaobra7@gmail.com">christianjuliusbonaobra7@gmail.com</a> | <a href="https://www.linkedin.com/in/christian-julius-bonaobra-655433281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                    <p> <a href="">09462802364</a> | <a href="christianjuliusbonaobra7@gmail.com">christianjuliusbonaobra7@gmail.com</a> | <a href="https://www.linkedin.com/in/christian-julius-bonaobra-655433281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
 LinkedIn</a></p>
                   </div>
 
